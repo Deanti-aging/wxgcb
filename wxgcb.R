@@ -92,7 +92,7 @@ wxgcb = function(){
   #算法性能测试
   test_acc_list = method_name_list = dataset_name_list = c()
   if (T) {
-    for(i in c(1: (length(datalist)) )){#
+    for(i in c(1: (length(datalist)-1) )){#
       dataset = datalist[[i]]
       datalabel = dataset$datalabel
       
